@@ -16,9 +16,19 @@
 
 ## Day 2 — 2026-05-10
 - Exercism problems solved:
- hello world, Guido's Gorgeous Lasagna, Ghost Gobble Arcade Game
+  >hello world, 
+  >Guido's Gorgeous Lasagna, 
+  >Ghost Gobble Arcade Game
 - One thing I struggled with:
- was with code smells, i realized i was getting confused with conditions (in my head of what is ture and false) and writing the and producing the exact opposite bool. 
- 
-- One thing that clicked:
-was to read the varable name of the bool clearly every time i come up with an if state ment or things related to the parent condition and think twice if there is better way to write the code. Instead of just brute forcing the first solution i could think of
+  >was with code smells, i realized i was getting confused with conditions (in my head of what is ture and false) and writing the and producing the exact opposite bool.
+    
+ - One thing that clicked:
+>was to read the varable name of the bool clearly every time i come up with an if state ment or things related to the parent condition and think twice if there is better way to write the code. Instead of just brute forcing the first solution i could think of
+
+## Day 3 — 2026-05-11
+##(written by ai from the jist ive given to it)
+- Concepts learned: lists (create, access, modify, slice), dictionaries (create, access, modify, loop), and the list-of-dicts pattern
+- Mini exercise: built a list of 5 fake AI agents (dicts), then printed names, filtered by skill_level > 6, and computed average skill (6.8)
+- One thing I struggled with: forgot two print(agents) lines so couldn't see the list mutating after append/remove
+- One thing that clicked: f-strings make printing much cleaner than comma-separated print arguments. Also: len(agents) replaces the manual counter — let built-ins do the work
+- Lesson for next time: commit BEFORE refactoring, so git history captures the evolution from brute-force to refined code 
